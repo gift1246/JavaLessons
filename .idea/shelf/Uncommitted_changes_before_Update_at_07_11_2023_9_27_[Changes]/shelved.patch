@@ -1,0 +1,20 @@
+Index: src/HomeWorkApp.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class HomeWorkApp {\r\n    public static void main(String[] args) {\r\n        printThreeWords();\r\n        checkSumSign();\r\n        printColor();\r\n        compareNumbers();\r\n\r\n    }\r\n    public static void printThreeWords() {\r\n        System.out.println(\"orange\");\r\n        System.out.println(\"Banana\");\r\n        System.out.println(\"Apple\");\r\n    }\r\n    public static void checkSumSign() {\r\n        int a = 1;\r\n        int b = -2;\r\n        if (a+b>=0){\r\n            System.out.println(\"Сумма положительная\");\r\n        }\r\n        else {\r\n            System.out.println(\"Сумма отрицательная\");\r\n        }\r\n    }\r\n    public static void printColor(){\r\n        int value = 101;\r\n        if (value<=0){\r\n            System.out.println(\"Красный\");\r\n        }\r\n        if (value>0 && value<=100){\r\n            System.out.println(\"Желтый\");\r\n        }\r\n        if (value>100){\r\n            System.out.println(\"Зеленый\");\r\n        }\r\n    }\r\n    public static void compareNumbers(){\r\n        int a = 4;\r\n        int b = 4;\r\n        if (a>=b){\r\n            System.out.println(\"a>=b\");\r\n        }\r\n        else {\r\n            System.out.println(\"a<b\");\r\n\r\n        }\r\n    }\r\n}\r\n\r\n
+===================================================================
+diff --git a/src/HomeWorkApp.java b/src/HomeWorkApp.java
+--- a/src/HomeWorkApp.java	
++++ b/src/HomeWorkApp.java	
+@@ -44,5 +44,10 @@
+ 
+         }
+     }
++    public static void penis(){
++        final int length = 17;
++
++    }//хуй у антона здоровый
+ }
+ 
++ 
+\ No newline at end of file
